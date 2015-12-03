@@ -27,7 +27,7 @@
     function refreshGlasses() {
         glasses.style.visibility = 'visible';
         arrow.onclick = removeGlasses;
-        this.style.transform = 'rotate(180deg)';
+        arrow.style.transform = 'rotate(180deg)';
 
         var images = document.getElementsByTagName('img');
         for (var i = 0; i < images.length; i++) {
@@ -84,8 +84,8 @@
     var glasses_wrapper = loadGlasses();
     document.body.appendChild(glasses_wrapper);
     var glasses = document.getElementById('theylive-glasses');
-    glasses.onclick = refreshGlasses;
     glasses.onmouseover = glasses.mouse = 'pointer';
+    glasses.onclick = refreshGlasses;
     var arrow = document.getElementById('theylive-arrow');
-    arrow.onclick = refreshGlasses;
     arrow.onmouseover = arrow.mouse = 'pointer';
+    arrow.onclick = refreshGlasses;
