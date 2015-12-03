@@ -84,8 +84,8 @@
     var glasses_wrapper = loadGlasses();
     document.body.appendChild(glasses_wrapper);
     var glasses = document.getElementById('theylive-glasses');
-    glasses.onmouseover = glasses.mouse = 'pointer';
+    glasses.onmouseover = function() { glasses.mouse = 'pointer'; };
     glasses.onclick = refreshGlasses;
     var arrow = document.getElementById('theylive-arrow');
-    arrow.onmouseover = arrow.mouse = 'pointer';
+    arrow.onmouseover = function() { arrow.mouse = 'pointer'; };
     arrow.onclick = refreshGlasses;
