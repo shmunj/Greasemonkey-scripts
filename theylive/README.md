@@ -1,4 +1,4 @@
-#THEY LIVE
+# THEY LIVE
 "I'm giving you a choice: either put on these glasses or start eatin' that trash can."
 
 This script fixes a new element in the bottom-left corner of the page. You can click on the arrow and put on or take off the glasses from John Carpenter's awesome movie [They Live](http://www.imdb.com/title/tt0096256/). They let you see subliminal messages our alien overlords are projecting from the hidden reality.
